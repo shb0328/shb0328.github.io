@@ -1,7 +1,6 @@
 ---
 layout: single
-title: "Markdown 연습"
-categories: ['markdown']
+title: "markdown 연습"
 ---
 
 # 제목1
