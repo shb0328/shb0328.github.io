@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hyebeen.So's Blog"
+title                    : "So Has been a good day"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Tech and Daily"
 name                     : "Hyebeen.So"
 description              : "An amazing website."
 url                      : "https://shb0328.github.io"
