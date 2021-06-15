@@ -60,24 +60,18 @@ public class Main_bj_2739_구구단 {
 
 ```
 
-**github gist**
-
-```
-<script src="https://gist.github.com/shb0328/622c9e7f7020e104f1af94cdcad36cdb.js"></script>
-```
-
-<script src="https://gist.github.com/shb0328/622c9e7f7020e104f1af94cdcad36cdb.js"></script>
-
-```
-{% shb0328/622c9e7f7020e104f1af94cdcad36cdb %} 
-
-using jekyll-gist
-```
-
-{% shb0328/622c9e7f7020e104f1af94cdcad36cdb %}
-
 - [ ] to-do1
 - [X] to-do2
 - [ ] to-do3
 - [X] to-do4
+
+**github gist**
+
+*using html syntax*
+
+<script src="https://gist.github.com/shb0328/622c9e7f7020e104f1af94cdcad36cdb.js"></script>
+
+*using jekyll-gist*
+
+{% shb0328/622c9e7f7020e104f1af94cdcad36cdb %}
 
