@@ -73,5 +73,4 @@ public class Main_bj_2739_구구단 {
 
 *using jekyll-gist*
 
-{% shb0328/622c9e7f7020e104f1af94cdcad36cdb %}
 
