@@ -69,8 +69,17 @@ public class Main_bj_2739_구구단 {
 
 *using html syntax*
 
+```
+<script src="https://gist.github.com/shb0328/622c9e7f7020e104f1af94cdcad36cdb.js"></script>
+```
+
 <script src="https://gist.github.com/shb0328/622c9e7f7020e104f1af94cdcad36cdb.js"></script>
 
 *using jekyll-gist*
 
+```
+{% gist shb0328/622c9e7f7020e104f1af94cdcad36cdb.js %}
+```
+
+{% gist shb0328/622c9e7f7020e104f1af94cdcad36cdb.js %}
 
