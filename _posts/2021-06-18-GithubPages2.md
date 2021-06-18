@@ -26,7 +26,7 @@ Paste Image 를 설치했다면 작성 중인 md파일에 복사한 이미지를
 
 prefix 와 surfix 는 필요에 따라 적절히 설정해주면 되고,
 
-중요한 부분은 *Path, Name, Pattern* 과 관련된 부분이다.
+<span style="color:red">중요한 부분은 **Path, Name, Pattern** 과 관련된 부분이다.</span>
 
 아래 사진은 나의 설정값이다.
 
