@@ -1,11 +1,11 @@
 ---
 layout: "single"
-title: "2021.07.19 TIL (Today I Learn)"
+title: "2021.07.19 TIL (Today I Learned)"
 categories: ['Programming','TIL','BoostCamp-Challenge']
 tags: ['Git','fork','Node.js','LTS','JavsScript','sort']
 permalink : /TIL/day1
 ---
-# TIL (Today I Learn)
+# TIL (Today I Learned)
 **BoostCamp Challenge DAY-1**
 
 - Study Git : fork
