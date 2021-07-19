@@ -19,13 +19,11 @@ Git은 2018년도에 SW학부로 전과를 준비하면서 생활코딩에서 �
 `add`, `commit`, `pull`, `push`, `branch` 정도는 혼자서도 종종 사용해왔던 기능들이라 어렵지 않았지만, <br>
 이번에 부스트캠프를 통해 많은 사람들과 함께 저장소를 사용하면서 조금 생소한 기능을 접하게 되었다.
 
-<br>
-
 ### **fork**
 
 ![210719205403.png](/assets/images/210719205403.png)
 
-먼저 `fork`는 다른 사람의 github repository 우측 상단에 위 그림과 같은 fork 버튼을 눌러서 내 github repository에 복제해 오는 기능이다.<br>
+`fork`는 다른 사람의 github repository 우측 상단에 위 그림과 같은 fork 버튼을 눌러서 내 github repository에 복제해 오는 기능이다.<br>
 github.io 블로그를 만들 때 한 번 사용해봤던 기능이다.<br> 
 fork해 온 repository는 아래와 같이 표현된다.
 
@@ -45,15 +43,11 @@ github.io 블로그는 원본 repository를 복제만해서 커스텀하여 나 
 반드시 fetch&rebase를 선행하여 원본 repository의 최신버전과 내 repository의 최신버전을 맞춘 뒤 PR을 진행해야한다.<br>
 오픈소스 프로젝트에 참여하고 싶다면, 이렇게 fork와 PR을 통해 Contribution이 가능하다.
 
-<br>
-
 ### **fork vs. clone**
 
 `fork`는 repository를 '**복제**'한다는 점에서 `git clone`과 헷갈릴 수 있다.<br>
 clone은 remote repository에 있는 데이터를 local (PC)에 복제해오는 것이고,<br>
 fork는 repository to repository로 repository를 복제해오는 것이다.
-
-<br>
 
 ![210719212259.png](/assets/images/210719212259.png)
 
@@ -75,8 +69,6 @@ fork는 repository to repository로 repository를 복제해오는 것이다.
 
 ![210719132931.png](/assets/images/210719132931.png)
 
-<br>
-
 그 다음, VS Code에서 WorkSpace를 만들고, `hello.js` 파일을 작성했다.<br>
 <ctrl+\`> 버튼으로 VS Code 에서 터미널을 열고 `node` 명령어를 통해 `hello.js` 파일을 실행해본다.
 
@@ -85,13 +77,9 @@ fork는 repository to repository로 repository를 복제해오는 것이다.
 
 ![210719133334.png](/assets/images/210719133334.png)
 
-<br>
-
 경로를 잘 확인했어야지... ㅎㅎ
 
 ![210719133643.png](/assets/images/210719133643.png)
-
-<br>
 
 ### **왜 최신버전(16.5.0)이 아니라 LTS 버전(14.17.3)을 대다수 사용자에게 추천할까?**
 
@@ -177,6 +165,16 @@ console.log(arr2);
 
 실행결과<br>
 ![210719230116.png](/assets/images/210719230116.png)
+
+<br>
+
+# TIT (Today I Thought)
+
+모르는게 정말 많다.<br>
+아는게 거의 없는 수준이다.<br>
+너무 조급해 하지 말자.
+
+<br>
 
 >Reference
 
