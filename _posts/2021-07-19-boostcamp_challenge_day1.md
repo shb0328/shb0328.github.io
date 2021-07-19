@@ -3,6 +3,7 @@ layout: "single"
 title: "2021.07.19 TIL (Today I Learn)"
 categories: ['Programming','TIL','BoostCamp-Challenge']
 tags: ['Git','fork','Node.js','LTS','JavsScript','sort']
+permalink : /TIL/day1
 ---
 # TIL (Today I Learn)
 **BoostCamp Challenge DAY-1**
@@ -11,7 +12,7 @@ tags: ['Git','fork','Node.js','LTS','JavsScript','sort']
 - Study Node.js : 설치 및 실행
 - Study JavaScript : Array.prototype.sort()
 
-## :ribbon: Study Git
+## Study Git
 
 Git은 2018년도에 SW학부로 전과를 준비하면서 생활코딩에서 이고잉님의 강의를 통해 처음 학습했었다. (https://opentutorials.org/course/1492/8035)
 
@@ -20,9 +21,7 @@ Git은 2018년도에 SW학부로 전과를 준비하면서 생활코딩에서 �
 
 <br>
 
-### :white_check_mark: **fork**
-
-<br>
+### **fork**
 
 ![210719205403.png](/assets/images/210719205403.png)
 
@@ -48,7 +47,7 @@ github.io 블로그는 원본 repository를 복제만해서 커스텀하여 나 
 
 <br>
 
-### :mag_right: **fork vs. clone**
+### **fork vs. clone**
 
 `fork`는 repository를 '**복제**'한다는 점에서 `git clone`과 헷갈릴 수 있다.<br>
 clone은 remote repository에 있는 데이터를 local (PC)에 복제해오는 것이고,<br>
@@ -60,9 +59,7 @@ fork는 repository to repository로 repository를 복제해오는 것이다.
 
 <br>
 
-## :ribbon: Study node.js
-
-<br>
+## Study node.js
 
 ### **설치 및 실행**
 
@@ -96,9 +93,7 @@ fork는 repository to repository로 repository를 복제해오는 것이다.
 
 <br>
 
-### :mag_right: **왜 최신버전(16.5.0)이 아니라 LTS 버전(14.17.3)을 대다수 사용자에게 추천할까?**
-
-<br>
+### **왜 최신버전(16.5.0)이 아니라 LTS 버전(14.17.3)을 대다수 사용자에게 추천할까?**
 
 ![210719215522.png](/assets/images/210719215522.png)
 
@@ -120,9 +115,7 @@ SW들은 서로 연관이 깊고, 특히 OS 라던지 프로그래밍 언어나 
 
 <br>
 
-## :ribbon: Study JavaScript
-
-<br>
+## Study JavaScript
 
 ### **Array.prototype.sort()**
 
@@ -187,9 +180,9 @@ console.log(arr2);
 
 >Reference
 
-https://medium.com/react-native-seoul/hackatalk-pr%EA%B3%BC%EC%A0%95%EC%9D%84-%ED%86%B5%ED%95%B4-%EC%82%B4%ED%8E%B4%EB%B3%B4%EB%8A%94-github-contribution-%EA%B0%80%EC%9D%B4%EB%93%9C-75bc4edb195e
+[github OpenSource project contribution 가이드](https://medium.com/react-native-seoul/hackatalk-pr%EA%B3%BC%EC%A0%95%EC%9D%84-%ED%86%B5%ED%95%B4-%EC%82%B4%ED%8E%B4%EB%B3%B4%EB%8A%94-github-contribution-%EA%B0%80%EC%9D%B4%EB%93%9C-75bc4edb195e)
 
-https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
-https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=magnking&logNo=220975303797
+[MDN-Array.prototype.sort()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+[[JavaScript] 숫자와 문자열 자료형 변환](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=magnking&logNo=220975303797)
 
 [Node.js 14.17.3 Documentation](https://nodejs.org/dist/latest-v14.x/docs/api/)
