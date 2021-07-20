@@ -391,6 +391,11 @@ crontab -e : 작업 목록 편집
 crontab -r : 작업 목록 삭제
 ```
 
+contab 파일을 처음 생성하면 편집기를 선택하고, 주석으로 된 crontab 파일 설명을 볼 수 있다.
+
+![210721004633.png](/assets/images/210721004633.png)<br>
+![210721004600.png](/assets/images/210721004600.png)
+
 ***cron logging***
 
 redirection을 이용해 cron 실행 결과 log를 남길 수 있다.<br>
