@@ -59,8 +59,8 @@ permalink : /TIL/day2
 
 <details>
 <summary>VirtualBox에서 가상머신 삭제<summary>
-
 <div markdown="1">
+
 설치하고 Virtual Box를 실행했는데 4학년 때 OS수업에서 사용했던 Ubuntu 가상 머신이 남아있어서 삭제해줬다.
 
 ![210720131729.png](/assets/images/210720131729.png)
