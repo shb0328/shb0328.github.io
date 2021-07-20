@@ -402,10 +402,12 @@ redirection을 이용해 cron 실행 결과 log를 남길 수 있다.<br>
 만약, 작업 실행 중 오류가 발생해서 작업이 제대로 수행되지 않았을 때, 로그를 남기지 않았다면 디버깅하기 힘들 것이다.
 
 - 덮어쓰기
+    
     ```
     * * * * * /home/script/bin/a.sh > /home/script/log/a.sh.log 2>&1
     ```
-- 이어쓰기<br>
+- 이어쓰기
+    
     ```
     * * * * * /home/script/bin/a.sh >> /home/script/log/a.sh.log 2>&1
     ```
