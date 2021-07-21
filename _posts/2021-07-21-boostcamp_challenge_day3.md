@@ -82,14 +82,14 @@ Windows의 경우 브라우저에서 `Ctrl + o`를 누르면 파일(문서)을 �
     - 일반적인 element는 여는 태그(`<`)와 attributes, text content, 그리고 닫는 태그(`>`)로 구성된다.
     ![210722014028.png](/assets/images/210722014028.png)
 - NodeList 
-    - **collections** of nodes (Not an Array)
+    - collections of nodes (Not an Array)
         - Array로 변환(convert)하는 방법<br>
 
         ```js
         var div_list = document.querySelectorAll('div'); // returns NodeList
         var div_array = Array.prototype.slice.call(div_list); // converts NodeList to Array
         ```
-    - **returned by** `Node.childNodes`와 같은 property 또는 `document.querySelectorAll()`와 같은 methods.
+    - returned by `Node.childNodes`와 같은 property 또는 `document.querySelectorAll()`와 같은 methods.
     - **Live vs. Static**
         - Live NodeList : DOM의 변경 사항을 실시간으로 collection에 반영한다.<br>
         ex ) Node.childNodes
@@ -98,38 +98,42 @@ Windows의 경우 브라우저에서 `Ctrl + o`를 누르면 파일(문서)을 �
         ※ NodeList 를 순회(iterate)하거나 리스트의 길이를 캐시(cache)해야 할 때, Static NodeList를 사용하는 것이 좋다.
     - 예제<br>
         - `for loof`, `for...of loof`, `foreach()` 를 사용하여 순회(iterate)가 가능하다.<br>
-    ```js
-    // ex1
-    for (var i = 0; i < myNodeList.length; ++i) {
-    var item = myNodeList[i];  // Calling myNodeList.item(i) isn't necessary in JavaScript
-    }
-    ```
-    ```js
-    //ex2
-    var list = document.querySelectorAll( 'input[type=checkbox]' );
-    for (var item of list) {
-        item.checked = true;
-    }
-    ```
-    ```js
-    //ex3
-    var elements = document.querySelectorAll(".suggestions");
 
-    NodeList.prototype.addEventListener = function(event, func) {
-        this.forEach(function(content, item) {
-        content.addEventListener(event, func);
+        ```js
+        // ex1
+        for (var i = 0; i < myNodeList.length; ++i) {
+        var item = myNodeList[i];  // Calling myNodeList.item(i) isn't necessary in JavaScript
+        }
+        ```
+        
+        ```js
+        //ex2
+        var list = document.querySelectorAll( 'input[type=checkbox]' );
+        for (var item of list) {
+            item.checked = true;
+        }
+        ```
+        
+        ```js
+        //ex3
+        var elements = document.querySelectorAll(".suggestions");
+
+        NodeList.prototype.addEventListener = function(event, func) {
+            this.forEach(function(content, item) {
+            content.addEventListener(event, func);
+            });
+        }
+
+        function log() {
+            console.log(this, " was clicked");
+        }
+        elements.addEventListener("click", log);
+        //or
+        elements.addEventListener("click", function() {
+            console.log(this, "  awas clicked");
         });
-    }
-
-    function log() {
-        console.log(this, " was clicked");
-    }
-    elements.addEventListener("click", log);
-    //or
-    elements.addEventListener("click", function() {
-        console.log(this, "  awas clicked");
-    });
-    ```
+        ```
+        
     ※ `for...in loof` 는 NodeList의 길이(length)와 항목 속성(item properties)까지 열거한다. 또한 고정된 순서(order)를 보장하지 않는다. 고정된 순서(order)로 items(nodes)만 열거하고 싶다면 `for...in loof`를 사용하면 안된다.
 
     DOM에 대해 이해한 것을 실습해볼 겸 `for...in loof`와 `for...of loof`로 각각 NodeList를 순회하는 테스트를 해보았다. 
