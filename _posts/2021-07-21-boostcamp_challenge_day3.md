@@ -20,7 +20,7 @@ permalink : /TIL/day3
 
 ### 💡 먼저 이해할 것
 
-WEB 페이지는 일종의 문서(document)이다. 웹 브라우저를 통해 그 내용이 해석되어 웹 브라우저 화면에 나타나거나 HTML 소스 자체로 나타나기도 한다.
+WEB 페이지는 일종의 문서(document)이다. 웹 브라우저를 통해 그 내용이 해석되어 웹 브라우저 화면에 나타나거나 HTML 소스 자체로 나타나기도 한다. 웹 페이지는 **DOM** 구조를 따름으로써 프로그래밍 언어와 연결될 수 있다.(interface)
 
 우리가 `.txt` 형식의 파일(문서)를 메모장과 같은 편집기로 실행시키는 것처럼, chrome과 같은 웹 브라우저를 이용해서 `.html`과 같은 형식의 파일(문서)를 실행시키는 것이다.
 
@@ -29,7 +29,7 @@ Windows의 경우 브라우저에서 `Ctrl + o`를 누르면 파일(문서)을 �
 ![210721215830.png](/assets/images/210721215830.png)
 ![210721220035.png](/assets/images/210721220035.png)
 
-#### **DOM**
+### **DOM**
 
 - DOM, The Document Object Model
     - nodes, property, method를 갖고 있는 object로 문서를 표현한다.
@@ -40,12 +40,14 @@ Windows의 경우 브라우저에서 `Ctrl + o`를 누르면 파일(문서)을 �
     - DOM method를 사용해서 프로그래밍적으로 트리에 접근할 수 있다.
         - 이를 통해 문서의 구조, 스타일, 콘텐츠를 변경할 수 있다.
     - javascript와 같은 언어로 DOM을 활용하여 HTML을 조작할 수 있다.
-    
+
+![210722044052.png](/assets/images/210722044052.png)
+
 - DOM Interface
     - 문서의 구조화된 표현(structured representation)을 제공한다.
     - 프로그래밍 언어가 DOM구조에 접근 및 변경할 수 있는 방법을 제공한다.<br>
     ※ JavaScript와 같은 스크립팅 언어를 이용해 수정가능
-    - 다중 인터페이스 상속이 가능하다. (많은 object가 여러 개의 다른 interface와 연관이 있다.) 
+    - 많은 object가 여러 개의 다른 interface와 연관이 있다.
         - 예시 :  table object는 `createCaption`, `insertRow` 등의 method가 포함된 `HTMLTableElement interface`를 implements한 것이다. 그러나 `HTML element`라서 `Element interface`도 implements한다. 또, `HTML element`는 DOM과 관련해서 node tree에서 하나의 node 이므로 `Node interface`도 implements 한다. 아래와 같이 table object를 참고하면 이 3가지 interface (`HTMLTableElement interface`, `Element interface`, `Node interface`) 를 사용할 수 있다. <br>
 
         ```js
@@ -59,13 +61,12 @@ Windows의 경우 브라우저에서 `Ctrl + o`를 누르면 파일(문서)을 �
         // HTMLTableElement interface: summary attribute
         table.summary = "note: increased border";
         ```
-        <span style='color:grey'>*cf. java multiple inheritance (https://devlog-wjdrbs96.tistory.com/39)*</span>
+
+        ![210722050227.png](/assets/images/210722050227.png)
 
 >문서 : HTML, XML, SVG 등
 
->Reference : https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
-
-#### **Fundamental data types**
+#### **Fundamental DOM data types**
 
 - Document
     - Document interface는 브라우저에 의해 로드된 웹 페이지이다.
@@ -74,18 +75,12 @@ Windows의 경우 브라우저에서 `Ctrl + o`를 누르면 파일(문서)을 �
     - Document는 페이지의 URL을 얻거나 문서에 새로운 element를 생성하는 등의 기능을 전역적으로(globally) 제공한다.
     - Document interface는 모든 종류의 문서에 대한 공통의 properties와 methods를 설명한다. 
     - 문서의 유형에 따라서 [더 다양한 API](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)가 존재한다. 
-
->Reference : https://developer.mozilla.org/en-US/docs/Web/API/Document
-
 - Element
     - [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
     - element는 웹페이지를 구성한다. (An element is a part of a webpage.)
     - element는 data item, text 묶음 또는 image를 포함할 수 있고, 아무것도 포함하지 않을 수도 있다.
     - 일반적인 element는 여는 태그(`<`)와 attributes, text content, 그리고 닫는 태그(`>`)로 구성된다.
     ![210722014028.png](/assets/images/210722014028.png)
-
->Reference : https://developer.mozilla.org/en-US/docs/Glossary/Element
-
 - NodeList 
     - **collections** of nodes (Not an Array)
         - Array로 변환(convert)하는 방법<br>
@@ -137,15 +132,62 @@ Windows의 경우 브라우저에서 `Ctrl + o`를 누르면 파일(문서)을 �
     ```
     ※ `for...in loof` 는 NodeList의 길이(length)와 항목 속성(item properties)까지 열거한다. 또한 고정된 순서(order)를 보장하지 않는다. 고정된 순서(order)로 items(nodes)만 열거하고 싶다면 `for...in loof`를 사용하면 안된다.
 
-    DOM에 대해 이해한 것을 실습해볼 겸 `for...in loof`와 `for...of loof`로 각각 NodeList를 순회해보는 테스트를 Plunker에서 해보았다. `for...in loof`로 순회했을 때, item properties가 어떤 것들이 있는지도 공부가 되었다.
+    DOM에 대해 이해한 것을 실습해볼 겸 `for...in loof`와 `for...of loof`로 각각 NodeList를 순회하는 테스트를 해보았다. 
 
     ![210722040029.png](/assets/images/210722040029.png)
     ![210722041347.png](/assets/images/210722041347.png)
 
-[](http://run.plnkr.co/preview/ckrdswn4c00073b69pdk89ixl/)
+    *script.js*
 
->Reference : https://developer.mozilla.org/en-US/docs/Web/API/NodeList
+    ```js
+    const test = function(elements, output) {
+    var elements = document.querySelectorAll("#input");
+    var output = document.getElementById("output");
 
+    output.innerText = "* elements : " + elements + "\n";
+
+    output.innerText += "\n* for e in element"
+    for(e in elements) output.innerText += "\n " + e ;
+    
+    output.innerText += "\n\n* for e of element"
+    for(e of elements) output.innerText += "\n " + e + "\n" + e.value;
+    
+    }
+    ```
+    *index.html*
+
+    ```html
+    <!DOCTYPE html>
+
+    <html>
+        <head>
+            <link rel="stylesheet" href="lib/style.css" />
+        </head>
+
+        <body>
+            <h1>Hello Plunker!</h1>
+            
+            <h2>This was written to test 'NodeList'.</h2>
+
+            <input id="input"/>
+            <input type="button" value="button" onclick="test();"/>
+
+            <h2>>> Output</h2>
+            <div id="output"></div>
+
+            <script src="lib/script.js"></script>
+        </body>
+    </html>
+    ```
+
+    위 실습의 결과, `for...in loof` 를 이용해서 `elements`를 순회하여 `HTMLInputElement`를 출력해보면 length를 포함한 다양한 property가 열거되는 것을 확인할 수 있다. 반면에, `for...of loof` 를 이용해서 `elements`를 순회해보면, `e` 출력 시 객체이름이 나오고, `e.value` property를 출력했을 때, input으로 입력했던 값이 출력되는 것을 확인할 수 있다.
+
+    `document.querySelectorAll("#input")`가 return한 NodeList를 `elements` 변수에 저장했다. NodeList안에 node 객체가 하나 들어있는데 `input` tag에 의해 만들어진 `HTMLInputElement` 객체이다. 
+
+    ![210722051448.png](/assets/images/210722051448.png)
+    
+    `HTMLInputElement`는 상속관계에 의해 `Node interface`를 implements 하기 때문에 node로써 NodeList에 item이 될 수 있다.
+    
 - attribute 
 - namedNodeMap 
 
