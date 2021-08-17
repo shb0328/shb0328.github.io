@@ -10,7 +10,7 @@ main:
    - title: "Categories"
      url: /_pages/category-archive.md
    - title: "Tags"
-      url: "/_pages/tag_archive.md"
+      url: /_pages/tag_archive.md
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
