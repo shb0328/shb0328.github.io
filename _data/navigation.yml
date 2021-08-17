@@ -3,9 +3,14 @@ main:
 #   - title: "Quick-Start Guide"
 #     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
    - title: "About Me"
-     url: /about/
+     url: /about/index.html
    - title: "Posts"
-     url: /_posts/
+     url: /index.html
+    #  url: /_posts/
+   - title: "Categories"
+     url: /_pages/category-archive.md
+   - title: "Tags"
+      url: "/_pages/tag_archive.md"
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
