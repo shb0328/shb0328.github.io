@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-layout: archive
+layout: default
 permalink: /about_me/
 classes: wide
 ---
