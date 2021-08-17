@@ -6,11 +6,10 @@ main:
      url: /about/index/
    - title: "Posts"
      url: /index/
-    #  url: /_posts/
    - title: "Categories"
-     url: /_pages/category-archive/
+     url: /categories/
    - title: "Tags"
-     url: /_pages/tag_archive/
+     url: /tags/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
