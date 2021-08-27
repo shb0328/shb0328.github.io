@@ -24,11 +24,11 @@ permalink : /GithubPages/5
 - Jekyll 에서 사용하는 탬플릿 언어 (templating language)
 - Main Components
   - objects : 정의된 변수들을 페이지에 출력하기위해 사용한다.
-    - 형식 : `{{ variables }}`
+    - 형식 : `{% raw %}{{ variables }}{% endraw %}`
   - tags : if문, 반복문 등을 사용해서 흐름을 제어하기위해 사용한다.
-    - 형식 : `{% logic %}`
+    - 형식 : `{% raw %}{% logic %}{% endraw %}`
   - filters : value를 정해진 filter에 맞게 변경하기위해 사용한다.
-    - 형식 : `value | filter`
+    - 형식 : `{% raw %}value | filter{% endraw %}`
     - 자세한 내용 : https://jekyllrb.com/docs/liquid/filters/
 
 <br>
