@@ -1,7 +1,8 @@
 ---
-layout: single
+layout: "single"
 title: "블로그 좌우 여백이 너무 넓다"
 categories: ['github pages']
+permalink : /GithubPages/4
 ---
 
 > 이 글은 [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)를 기준으로 작성되었다.

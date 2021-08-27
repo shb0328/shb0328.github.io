@@ -1,8 +1,9 @@
 ---
-layout: single
+layout: "single"
 title: "Github pages 블로그 Category 만들기"
 categories: ['github pages']
-tags: [YFM, Liguid, Catgory, Tags, Page, Navigation]
+tags: ['YFM','Liguid','Catgory','Tags','Page','Navigation']
+permalink : /GithubPages/5
 ---
 
 > 이 글은 [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)를 기준으로 작성되었다.
