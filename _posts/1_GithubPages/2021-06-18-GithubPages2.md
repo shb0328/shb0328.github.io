@@ -2,6 +2,7 @@
 layout: single
 title: "Paste Image 이용하여 VS Code 에서 MD파일에 이미지 추가하기"
 categories: ['github pages','paste image','vs code','markdown']
+permalink : /GithubPages/2
 ---
 
 블로그 포스팅을 위해 md 파일을 작성할 때 Visual Studio Code 를 이용한다면, 이미지를 추가하기 위해 **Paste Image** Extension을 사용하면 편리하다.

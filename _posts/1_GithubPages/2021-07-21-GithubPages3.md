@@ -2,6 +2,7 @@
 layout: single
 title: "Github pages 블로그 font 설정"
 categories: ['github pages']
+permalink : /GithubPages/3
 ---
 
 이 글은 [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)를 기준으로 작성되었다.

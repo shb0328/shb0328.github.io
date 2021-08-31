@@ -2,6 +2,7 @@
 layout: single
 title: "Github Pages 블로그 만들기 (feat.빌드오류)"
 categories: ['github pages','active log','source tree','jekyll','Liquid','jekyll-gist']
+permalink : /GithubPages/1
 ---
 
 github pages 블로그를 생성하였다.
