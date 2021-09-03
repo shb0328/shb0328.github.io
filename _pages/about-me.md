@@ -1,10 +1,10 @@
 ---
-layout: single
+layout: default
 permalink: /about_me/
 last_modified_at: 2021-09-03
 --- 
 
-# <center>I am **Hyebeen So** 😎</center>
+# <center>I am <b>Hyebeen So</b> 😎</center>
 
 <center><img src="/assets/images/me.png" width="30%" height="30%" style="
 border: 1px solid #808080;
