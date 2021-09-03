@@ -5,27 +5,21 @@ last_modified_at: 2021-09-03
 --- 
 <br>
 
-# I am <b>Hyebeen So</b> 😎
+# <center>I am <b>Hyebeen So</b> 😎</center>
 
-<img src="/assets/images/me.png" width="20%" height="20%" 
+<center><img src="/assets/images/me.png" width="27%" height="27%" 
 style="
 border: 1px solid #808080;
 padding: 2px;
-">
+"></center>
 
-<br>
-
-좋아하는 일을 하며 보람을 느끼는 삶을 살려고 노력합니다. 
-
-항상 겸손한 자세로 성실하게 살아가는 사람이 되고 싶습니다.
-
-사용자의 니즈에 대해 고민하며 프로그램으로 답을 주는 개발자가 되고 싶습니다.
-
-새로운 시도를 두려워하지 않는 개발자가 되고 싶습니다.
-
-궁금해하는 것을 게을리하지 않는 개발자가 되고 싶습니다.
-
-<br>
+<center>
+좋아하는 일을 하며 보람을 느끼는 삶을 살려고 노력합니다. <br>
+항상 겸손한 자세로 성실하게 살아가는 사람이 되고 싶습니다.<br>
+삽질을 게을리하지 않는 개발자가 되고 싶습니다.<br>
+새로운 시도를 두려워하지 않는 개발자가 되고 싶습니다.<br>
+사용자의 니즈를 함께 고민하고 다양한 해결책을 제시해줄 수 있는 개발자가 되고 싶습니다.<br>
+</center>
 
 ## 💜Skills
  * Java
