@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Hyebeen.So"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : ""
   location         : "Somewhere"
   email            : "shb0328@gmail.com"
   links:
