@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: about-me
 permalink: /about_me/
 last_modified_at: 2021-09-03
 --- 
-<center>
+<br>
 
 # I am <b>Hyebeen So</b> 😎
 
@@ -60,5 +60,3 @@ padding: 2px;
  * Email : shb0328@gmail.com
  * Git : [https://github.com/shb0328](https://github.com/shb0328)
  * Blog : [https://shb0328.github.io/](https://shb0328.github.io/)
- 
- </center>
