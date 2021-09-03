@@ -6,9 +6,9 @@ main:
      url: /about_me/
    - title: "Posts"
      url: /
-   - title: "Categories"
+   - title: "Category"
      url: /categories/
-   - title: "Tags"
+   - title: "Tag"
      url: /tags/
   # - title: "Sample Collections"
   #   url: /collection-archive/
