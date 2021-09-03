@@ -100,9 +100,6 @@ author:
   location         : "Somewhere"
   email            : "shb0328@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:shb0328@gemail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/shb0328"
