@@ -1,29 +1,29 @@
 ---
-title: "About Me"
 layout: single
 permalink: /about_me/
 last_modified_at: 2021-09-03
 --- 
-# I am **Hyebeen So**
+
+# <center>I am **Hyebeen So** 😎</center>
 
 <center><img src="/assets/images/me.png" width="30%" height="30%" style="
-border: 1px solid #cab6de;
-border-radius: 50%;
-padding: 5px;
--moz-border-radius: 50%;
--khtml-border-radius: 50%;
--webkit-border-radius: 50%;
+border: 1px solid #808080;
+padding: 2px;
 "></center>
 
-- 좋아하는 일을 하며 보람을 느끼는 삶을 살려고 노력합니다. 항상 겸손한 자세로 성실하게 살아가는 사람이 되고 싶습니다.
+<br>
 
-- 사용자의 니즈에 대해 고민하며 프로그램으로 답을 주는 개발자가 되고 싶습니다.
+좋아하는 일을 하며 보람을 느끼는 삶을 살려고 노력합니다. 
 
-- 새로운 시도를 두려워하지 않는 개발자가 되고 싶습니다.
+항상 겸손한 자세로 성실하게 살아가는 사람이 되고 싶습니다.
 
-- 궁금해하는 것을 게을리하지 않는 개발자가 되고 싶습니다.
+사용자의 니즈에 대해 고민하며 프로그램으로 답을 주는 개발자가 되고 싶습니다.
 
------
+새로운 시도를 두려워하지 않는 개발자가 되고 싶습니다.
+
+궁금해하는 것을 게을리하지 않는 개발자가 되고 싶습니다.
+
+<br>
 
 ## 💜Skills
  * Java
@@ -37,10 +37,8 @@ padding: 5px;
  - 네이버 커넥트재단 부스트캠프 챌린지 6기 수료 (2021.07.19 ~ 2021.08.13)
  - 신세계아이앤씨 백화점할인시스템 운영 (2020.05.11 ~ 2021.05.31)
  - 삼성청년소프트웨어아카데미(SSAFY) 3기 (2020.01.01 ~ 2020.04.30)
- - 숭실대학교 소프트웨어학부 졸업 (2020.02.14)
+ - 숭실대학교 소프트웨어학부 졸업 (2015.03.01 ~ 2020.02.14)
  - Lion Bridge 음성 인식 플랫폼 Bixby 품질관리 (QC) (2017.10.19 ~ 2018.02.28) 
-
------
 
 ## 💜Interested in
 
@@ -55,8 +53,6 @@ padding: 5px;
 
 - 다양한 운동에 도전하는 것을 좋아합니다. 최근에는 필라테스와 헬스를 꾸준히 하고 있습니다.
 <span style='color:grey'>*요가, 필라테스, 수영, 헬스, 클라이밍, 복싱 등*<span>
-
------
 
 ## 💜Contact
  * Email : shb0328@gmail.com
