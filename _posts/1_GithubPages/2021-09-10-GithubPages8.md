@@ -8,18 +8,13 @@ permalink : /GithubPages/8
 
 작성중
 
-## Why are my contributions not showing up on my profile?
+## 😥Why are my contributions not showing up on my profile?
 
 -----
-<center>
-<div>
 
 | Before | After |
 | :---: | :---: |
 |<img src="/assets/images/210908003951.png" width="220px" height="200px">|<img src="/assets/images/210908010358.png" width="220px" height="200px">|
-
-</div>
-</center>
 
 <br>
 
@@ -37,9 +32,9 @@ github repository 에서 `shb0328.github.io` repo의 이름을 `a`로 바꾸고 
 
 -----
 
-## git clone --bare
+## 🥕git clone --bare
 
-## git push --mirror
+## 🥕git push --mirror
 
 >Reference
 - https://soranhan.tistory.com/11
