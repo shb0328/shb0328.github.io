@@ -6,15 +6,18 @@ tags: ['Github','commit','bare clone','mirror push','Why are my contributions no
 permalink : /GithubPages/8
 ---
 
+작성중
+
 ## Why are my contributions not showing up on my profile?
 
 -----
 
 <center>
 |Before|After|
-|--|--|
+|---|---|
 |<img src="/assets/images/210908003951.png" width="220px" height="200px">|<img src="/assets/images/210908010358.png" width="220px" height="200px">|
 </center>
+<br>
 
 ```bash
 git clone --bare -b master --single-branch https://github.com/shb0328/shb0328.github.io.git
