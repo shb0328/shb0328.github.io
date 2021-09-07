@@ -12,11 +12,10 @@ permalink : /GithubPages/8
 
 -----
 
-<center>
-|Before|After|
-|---|---|
+| Before | After |
+| --- | --- |
 |<img src="/assets/images/210908003951.png" width="220px" height="200px">|<img src="/assets/images/210908010358.png" width="220px" height="200px">|
-</center>
+
 <br>
 
 ```bash
