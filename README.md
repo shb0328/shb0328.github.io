@@ -7,13 +7,9 @@ padding: 2px;
 "></center>
 <br>
 
-<center>
 좋아하는 일을 하며 보람을 느끼는 삶을 살고자 노력합니다. 
-</center>
 
-<center>
 항상 겸손한 자세로 성실하게 살아가는 사람이 되고 싶습니다.
-</center>
 
 ## 💜I Wanna be
 - 삽질을 게을리하지 않는 개발자
