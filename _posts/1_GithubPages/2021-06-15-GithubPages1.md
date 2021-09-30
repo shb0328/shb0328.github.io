@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Github Pages 블로그 만들기 (feat.빌드오류)"
-categories: ['github pages','active log','source tree','jekyll','Liquid','jekyll-gist']
+categories: ['Github Pages']
+tags: ['github pages','jekyll','liquid']
 permalink : /GithubPages/1
 ---
 

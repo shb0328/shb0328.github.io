@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Github pages 블로그 font 설정"
-categories: ['github pages']
+categories: ['Github Pages']
+tags: ['github pages']
 permalink : /GithubPages/3
 ---
 

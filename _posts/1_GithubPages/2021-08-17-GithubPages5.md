@@ -1,8 +1,8 @@
 ---
-layout: "single"
+layout: single
 title: "Github pages 블로그 Category 만들기"
-categories: ['github pages']
-tags: ['YFM','Liguid','Catgory','Tags','Page','Navigation']
+categories: ['Github Pages']
+tags: ['github pages','YFM','liquid']
 permalink : /GithubPages/5
 ---
 

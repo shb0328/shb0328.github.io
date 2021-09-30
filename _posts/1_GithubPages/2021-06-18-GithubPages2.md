@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Paste Image 이용하여 VS Code 에서 MD파일에 이미지 추가하기"
-categories: ['github pages','paste image','vs code','markdown']
+categories: ['Github Pages']
+tags: ['github pages','paste image','markdown']
 permalink : /GithubPages/2
 ---
 

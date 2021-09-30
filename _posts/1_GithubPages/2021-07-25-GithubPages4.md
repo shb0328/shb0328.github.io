@@ -1,7 +1,8 @@
 ---
-layout: "single"
+layout: single
 title: "블로그 좌우 여백이 너무 넓다"
-categories: ['github pages']
+categories: ['Github Pages']
+tags: ['github pages']
 permalink : /GithubPages/4
 ---
 

@@ -2,7 +2,7 @@
 layout: "single"
 title: "Github Pages 블로그에 포스팅만해도 내 Github에 잔디가 심어졌으면 좋겠다."
 categories: ['Github Pages']
-tags: ['Github','commit','bare clone','mirror push','Why are my contributions not showing up on my profile?']
+tags: ['github pages','Github','bare clone','mirror push','Why are my contributions not showing up on my profile?']
 permalink : /GithubPages/6
 ---
 
